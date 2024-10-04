@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marmiton | Connexion</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <a href="../main/index.html">
+                <h1>Marmiton</h1>
+            </a>
+            <nav class="navigation">
+                <a href="#">Acceuil</a>
+                <a href="../toute les recettes/index.html">Toutes les recettes</a>
+                <a href="#">Contact</a>
+            </nav>
+            <a href="../connexion/index.html" class="btn_primary">Se connecter | S'inscrire</a>
+        </div>
+    </header>
+    <main>
+        <div class="container_main">
+            <div class="information">
+                <form action="  ">
+                    <h2>Créer votre compte :</h2>
+                    <h3>Bienvenue parmis les meilleurs cuisinier !</h3>
+
+                    <label for="input_name">- Votre adresse email -</label>
+                    <input type="text" placeholder="Email" id="input_name" required>
+
+                    <label for="input_password">- Mot de passe -</label>
+                    <input type="password" placeholder="Mot de passe" id="input_password">
+
+                    <label for="input_password2">- Confimer le mot de passe -</label>
+                    <input type="password" placeholder="Confirmer le mot de passe" id="input_password2">
+
+                    <label for="birthday">- Votre date de naissance -</label>
+                    <input type="date" id="date" required>
+
+                    <div class="genre_button">
+                        <input type="button" id="girl" value="Fille">
+                        <input type="button" id="boy" value="Garçon">
+                    </div>
+
+                    <div class="confirmation">
+                        <label for="condition">J’accepte les <a href="#">Conditions Générales d'Utilisation</a> et reconnais avoir été
+                            informé que mes données personnelles seront utilisées tel que décrit ci-dessous et détaillé dans
+                            la <a href="#">Politique de protection des données personnelles</a></label>
+                        <input type="checkbox" id="condition" required>
+                    </div>
+
+                    <a href="../connexion/index.html" class="create_account_button">J'ai un compte</a>
+                    <input type="submit" value="Validé" class="send_button">
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
